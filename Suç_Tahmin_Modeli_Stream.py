@@ -10,6 +10,8 @@ import numpy as np
 from xgboost import XGBClassifier
 
 pip install pycurl --only-binary :all:
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
