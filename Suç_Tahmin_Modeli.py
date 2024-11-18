@@ -10,10 +10,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import LocalOutlierFactor
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder, StandardScaler, RobustScaler
 
-pip install --upgrade pip
-pip install mkl-service==2.4.2
-pip install C:\Users\ASUS\Downloads\pycurl-7.45.2-cp312-cp312-win_amd64.whl
-
 #DR_NO: Olay için atanmış benzersiz rapor numarası. Her olay için tekil bir kimlik numarası olarak kullanılır.
 #DATE_RPTD: Olayın raporlandığı tarih. Bu, suçun polise bildirildiği tarih olabilir.
 #DATE_OCC: Olayın gerçekleştiği tarih. Bu tarih, suçun işlendiği günü belirtir.
